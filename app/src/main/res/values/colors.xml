@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorTopStories">#795548</color>
+    <color name="colorStatusBar">#795548</color>
+    <color name="colorMostPopular">#795548</color>
+    <color name="colorBusiness">#795548</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorMainTheme">#000000</color>
+    <color name="colorWelcome">#848482</color>
+
+    <color name="colorText">#D0D0D0</color>
+    <color name="colorGold">#F28500</color>
+    <color name="colorautre">#795548</color>
+    </resources>
+

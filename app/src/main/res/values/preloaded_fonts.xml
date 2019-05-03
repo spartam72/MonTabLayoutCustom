@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allura</item>
+        <item>@font/cookie</item>
+        <item>@font/diplomata</item>
+        <item>@font/diplomata_sc</item>
+        <item>@font/elsie</item>
+        <item>@font/pacifico</item>
+        <item>@font/sail</item>
+    </array>
+</resources>
