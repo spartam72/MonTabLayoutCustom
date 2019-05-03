@@ -36,13 +36,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_main );
 
-
         toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle( "     My News" );
+        toolbar.setTitle( R.string.app_name );
+        toolbar.setTitleMarginStart( 120 );
         setSupportActionBar(toolbar);
-        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this,
-                R.color.colorTopStories ));
-
+        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.colorTopStories ));
 
         tabLayout = findViewById(R.id.tablayout);
         topStories = findViewById(R.id.tabTopStories);

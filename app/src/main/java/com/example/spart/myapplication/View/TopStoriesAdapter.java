@@ -70,6 +70,8 @@ public class TopStoriesAdapter extends RecyclerView.Adapter<TopStoriesAdapter.My
     public void onBindViewHolder(@NonNull MyViewHolder holder, @SuppressLint("RecyclerView") final int position) {
 
 
+        holder.section.setTextColor( ContextCompat.getColor(context,R.color.colorTopStories ) );
+
         holder.section.setText(results.get( position ).getSection() );
         holder.mPublishedDate.setText(DateConvertUtils.getPublished_date_converted(results.get( position ).getPublishedDate() ));
         holder.mTitle.setText(results.get( position ).getTitle() );

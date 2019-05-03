@@ -73,6 +73,8 @@ public class BusinessAdapter extends RecyclerView.Adapter<BusinessAdapter.MyView
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, @SuppressLint("RecyclerView") final int position) {
 
+        holder.section.setTextColor( ContextCompat.getColor(context,R.color.colorBusiness ) );
+
         holder.section.setText( results.get( position ).getSection() );
         holder.mPublishedDate.setText( DateConvertUtils.getPublished_date_converted(results.get( position ).getPublishedDate() ));
         holder.mTitle.setText(results.get( position ).getTitle() );

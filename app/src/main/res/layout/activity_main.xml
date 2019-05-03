@@ -29,8 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorTopStories"
-        app:tabIndicatorColor="@color/colorGold"
-        app:tabSelectedTextColor="@color/colorGold"
+        app:tabIndicatorColor="@color/colorBlack"
+        app:tabSelectedTextColor="@color/colorBlack"
         app:tabTextColor="@android:color/white">
 
         <android.support.design.widget.TabItem
@@ -69,7 +69,7 @@
         android:fitsSystemWindows="true"
         android:theme="@style/NavigationDrawer.Theme"
         app:headerLayout="@layout/activity_main_nav_header"
-        app:itemIconTint="@color/colorGold"
+        app:itemIconTint="@color/colorTopStories"
         app:itemTextColor="@color/colorBlack"
         app:menu="@menu/drawer_menu" />
 </android.support.v4.widget.DrawerLayout>
