@@ -7,6 +7,9 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 
 
+/**
+ * splash_screen
+ */
 public class SplashScreen extends AppCompatActivity {
 
     @Override
